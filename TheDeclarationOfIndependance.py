@@ -31,7 +31,11 @@ def gasLevelGauge():
 
 print(gasLevelGauge())
 
-
+def listOfGasStation():
+    gasStations = ["Shell","Costco","Buckeys","Speedway","7-11","Circkle-k","Meijer"," Family Fare"]
+    gasStationNearby = random.choice(gasStations)
+    print(gasStationNerby)
+    return gasStationNearby
 
 
 
