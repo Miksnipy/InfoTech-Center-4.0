@@ -124,35 +124,41 @@ weatherAlert = weather()
 
 
 
-print(weatherAlert)
+
 
 #VRS() to respond to weather condition
 def vehicleResponseSystem():
 	if weatherAlert == "Snowing":
 		print("\nNWS has changed your alarm by 15 minutes because of the waether forcast of", weatherAlert)
-		print("VRS has been engaged only allowing your vehicle to go 45 MPH")
+		print("\nVRS has been engaged only allowing your vehicle to go 45 MPH")
 	elif weatherAlert == "Blizerd":
 		print("\nNWS has changed your alarm by 30 minutes because of the waether forcast of", weatherAlert)
-		print("VRS has been engaged only allowing your vehicle to go 35 MPH")
+		print("\nVRS has been engaged only allowing your vehicle to go 35 MPH")
 	elif weatherAlert == "Rain":
-		print("\nNWS hgasLevelAlert()as not changed your alarm ", weatherAlert)
-		print("VRS has not been engaged ")
+		print("\nNWS has not changed your alarm ", weatherAlert)
+		print("\nVRS has not been engaged ")
 	elif weatherAlert == "Foggy":
 		print("\nNWS has not changed your alarm ", weatherAlert)
-		print("VRS has not been engaged ")
+		print("\nVRS has not been engaged ")
 	elif weatherAlert == "Windy":
 		print("\nNWS has not changed your alarm ", weatherAlert)
-		print("VRS has not been engaged")
+		print("\nVRS has not been engaged")
 	elif weatherAlert == "Icy":
 		print("\nNWS has changed your alarm by 45 minutes because of the waether forcast of", weatherAlert)
-		print("VRS has been engaged only allowing your vehicle to go 25 MPH")
+		print("\nVRS has been engaged only allowing your vehicle to go 25 MPH")
 	else:
 		print("\nNWS has not changed your alarm ", weatherAlert)
-		print("VRS has not been engaged ")
+		print("\nVRS has not been engaged ")
 
 
 
 
 #Call Functions here
+print("\nNational Weather survice is checking condiction")
+sleep(2)
+print(weatherAlert)
 vehicleResponseSystem()
+sleep(1)
+print("\nchecking gas level")
+sleep(2)
 gasLevelAlert()
