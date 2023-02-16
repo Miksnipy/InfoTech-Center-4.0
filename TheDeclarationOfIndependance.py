@@ -10,20 +10,20 @@ We will create a function that will tell us the closest Restaurant
 """
 
 
-# Gas Level Function
-def gasLevelGauge():
-    gasLevelList = ["Quarter Tank","Half Tank","Three Quarter Tank","Full Tank"]
+# List of Fast Food Restaurants function
+def listOfFastFoodRestaurants():
+     fastFoodRestaurants = ["Wendys","Toco Bell","KFC","Subway","McDonald","Burger Kings","Arbys"]
+    fastFoodRestaurantsNearby = random.choice(fastFoodRestaurants)
+    return fastFoodRestaurantsNearby
+# list of Restaurants
 
-    currentGasLevel = random.choice(gasLevelList)
-    return currentGasLevel
+def listOfRestaurants():
+    Restaurants = ["Applebee","Outback","Red Lobster","Denny's","Black Rock","ihop","Cracker Barrel"]
+    RestaurantsNearby = random.choice( Restaurants)
+    return RestaurantsNearby
+# deturmin the distince between the closetest fast food Restaurants & Restaurants
 
-# Variable calling gasLevelGuage function to store its value
-gasLevelIndicator = gasLevelGauge()
-
-
-
-
-
+def 
 
 
 
