@@ -16,8 +16,7 @@ def listOfRestaurants():
     restaurantsNearby = random.choice( restaurants)
     return restaurantsNearby
 # varibale calling fast food restaurants and restaurants
- restaurantsList = listOfRestaurants()
+ restaurantList = listOfRestaurants():
 
 
 def  restaurantsfood
-    
