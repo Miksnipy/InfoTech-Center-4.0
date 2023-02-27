@@ -9,14 +9,18 @@ We will create a function that will tell us the closest Restaurant
     - create a list of Restaurant
 """
 import random
-
+import sleep
 
 def listOfRestaurants():
-    restaurants = ["Applebee","Outback","Red Lobster","Denny's","Black Rock","ihop","Cracker Barrel","Wendys","Toco Bell","KFC","Subway","McDonald","Burger Kings","Arbys"]
+    restaurants = ["Applebee","Outback","Red Lobster","Denny's","Cracker Barrel","Wendys","KFC","Subway",,"Burger Kings","Arbys"]
     restaurantsNearby = random.choice( restaurants)
     return restaurantsNearby
-# varibale calling fast food restaurants and restaurants
- restaurantList = listOfRestaurants():
+
+ restaurantList = listOfRestaurants()
 
 
-def  restaurantsfood
+def  restaurantsfood():
+    milesToRestaurants = round(random.uniform(26,50),2)
+if  restaurantList == "Applebee":
+    print("\nThis is a close Restaurant", listOfRestaurants(),"which is",milesToRestaurants,"miles away.")
+    sleep(1.5)
